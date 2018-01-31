@@ -3,10 +3,13 @@
     font-size: 18px;
     box-sizing: border-box;
 
+
 }
 body {
 	background-color: #777;
 	text-align: center;
+
+
 
 }
 
@@ -22,16 +25,31 @@ nav {
 	margin-top: 10px;
 }
 
+.Wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
 section {
 	background-color: #ebebeb;
 	width: 495px;
 	padding: 20px;
 	color: #777;
 	float: left;
-	margin-left: 232px;
+	margin-right: 20px;
 	margin-bottom: 20px;
-	margin-top: 20px
+	margin-top: 20px;
+}
 
+aside {
+	background-color: #ebebeb;
+	width: 445px;
+	padding: 20px;
+	height: 292px;
+	color: #777;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 article {
@@ -50,19 +68,6 @@ article {
 	background-color: #ebebeb;
 	color: #777;
 	padding: 10px;
-}
-
-aside {
-	background-color: #ebebeb;
-	width: 445px;
-	padding: 20px;
-	height: 292px;
-	color: #777;
-	float: left;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
 }
 
 footer {
